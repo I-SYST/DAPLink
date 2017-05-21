@@ -274,6 +274,14 @@ projects:
         - *module_if
         - *module_hic_lpc11u35
         - records/board/wizwiki_w7500p.yaml
+    lpc11u35_idapm_nrf51_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/idapm_nrf51.yaml
+    lpc11u35_idapm_nrf52_if:
+        - *module_if
+        - *module_hic_lpc11u35
+        - records/board/idapm_nrf52.yaml
     sam3u2c_ncs36510rf_if:
         - *module_if
         - *module_hic_sam3u2c
